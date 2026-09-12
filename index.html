@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sign in | NEXORA ERP</title>
+
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+    <main class="login">
+
+        <section class="welcome">
+            <div>
+                <h1>NEXORA</h1>
+                <p class="sub">ERP Platform</p>
+            </div>
+
+            <p class="tagline">
+                Run Your Business<br>
+                <span>Smarter And Faster</span>
+            </p>
+        </section>
+
+        <section class="sign-in">
+            <form id="loginForm">
+
+                <div class="logo">
+                    <b>N</b>
+                    <strong>NEXORA ERP</strong>
+                </div>
+
+                <h2>Welcome back</h2>
+                <p>Sign in to continue to your workspace.</p>
+
+                <label>
+                    Email address
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="you@company.com"
+                        required
+                    >
+                </label>
+
+                <label>
+                    Password
+                    <input
+                        id="password"
+                        type="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </label>
+
+                <div class="options">
+
+                    <label class="remember">
+                        <input type="checkbox" checked>
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot password?</a>
+
+                </div>
+
+                <button>Sign in</button>
+
+                <p class="create">
+                    New to Nexora?
+                    <a href="#">Create an account</a>
+                </p>
+
+                <hr>
+                <section>
+                    <details>
+                        <summary  class="accounts">Use a demo accounts</summary>
+                        <div class="demo"><span>Admin</span><p>admin@nexora.com / Admin@123</p></div>
+                        <div class="demo"><span>Manager</span><p>manager@nexora.com / Manager@123</p></div>
+                        <div class="demo"><span>Employee</span><p>employee@nexora.com / Employee@123</p></div>
+                    </details>
+                </section>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
