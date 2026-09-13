@@ -27,7 +27,7 @@ body {
     padding: 24px 16px;
     background: #fff;
     border-right: 1px solid var(--line);
-    box-shadow: 1px 1px 1px 1px darkgray;
+    box-shadow: 1px 1px 1px 1px gainsboro;
 }
 
 .brand {
