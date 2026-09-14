@@ -1,0 +1,5 @@
+{
+    "storage": "Registered users are saved by the application as JSON in the browser localStorage key nexoraUsers.",
+    "fields": ["name", "email", "password", "role"],
+    "newUserRole": "employee"
+}
