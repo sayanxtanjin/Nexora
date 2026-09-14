@@ -1,0 +1,35 @@
+{
+    "admin": {
+        "heading": "Business command center",
+        "description": "A complete view of today's business activity.",
+        "cards": [
+            { "label": "Revenue", "value": "৳195,000", "note": "+12% this month" },
+            { "label": "Sales", "value": "24", "note": "6 awaiting payment" },
+            { "label": "Customers", "value": "186", "note": "8 new this month" },
+            { "label": "Products", "value": "48", "note": "3 low-stock items" }
+        ],
+        "activity": ["Invoice INV-1042 was paid", "Low stock: Wireless Keyboard", "New customer: Nova Stores"]
+    },
+    "manager": {
+        "heading": "Operations overview",
+        "description": "Monitor your teams, sales and operational priorities.",
+        "cards": [
+            { "label": "Team tasks", "value": "18", "note": "4 due today" },
+            { "label": "Sales", "value": "24", "note": "6 awaiting payment" },
+            { "label": "Inventory alerts", "value": "3", "note": "Items need attention" },
+            { "label": "Customer requests", "value": "7", "note": "2 new today" }
+        ],
+        "activity": ["Three inventory items need review", "Team sales target is 86% complete", "Two customer requests are new"]
+    },
+    "employee": {
+        "heading": "My workspace",
+        "description": "Your sales activity and tasks for today.",
+        "cards": [
+            { "label": "My sales", "value": "6", "note": "2 awaiting payment" },
+            { "label": "Today's target", "value": "৳65,000", "note": "72% achieved" },
+            { "label": "Notifications", "value": "4", "note": "1 requires action" },
+            { "label": "Open tasks", "value": "3", "note": "Due this week" }
+        ],
+        "activity": ["Follow up with Nova Stores", "Invoice INV-1042 is awaiting payment", "Weekly sales target updated"]
+    }
+}
