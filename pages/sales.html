@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sales | NEXORA ERP</title>
+
+    <link rel="stylesheet" href="../css/sales.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <aside class="sidebar" id="sidebar">
+
+            <div class="brand">
+                <b>N</b> NEXORA ERP
+            </div>
+
+            <nav>
+                <a class="" href="dashboard.html">Dashboard</a>
+                <a class="" href="employees.html">Employees</a>
+                <a class="" href="customers.html">Customers</a>
+                <a class="" href="products.html">Products</a>
+                <a class="" href="inventory.html">Inventory</a>
+                <a class="active" href="sales.html">Sales</a>
+                <a class="" href="invoices.html">Invoices</a>
+                <a class="" href="finance.html">Finance</a>
+                <a class="" href="reports.html">Reports</a>
+                <a class="" href="notifications.html">Notifications</a>
+                <a class="" href="profile.html">Profile</a>
+                <a class="" href="settings.html">Settings</a>
+            </nav>
+
+            <a class="logout" href="login.html">Log out</a>
+
+        </aside>
+
+        <main class="content">
+
+            <header class="page-head">
+
+                <div>
+                    <h1>Sales</h1>
+                    <p>Build a new sale for a customer.</p>
+                </div>
+
+                <button class="menu" id="menuButton">Menu</button>
+
+            </header>
+
+            <section class="sale-layout">
+
+                <article class="panel">
+
+                    <label>
+                        Customer
+                        <select>
+                            <option>Select customer</option>
+                            <option>Rahim Trading</option>
+                            <option>Nova Stores</option>
+                        </select>
+                    </label>
+
+                    <h2>Products</h2>
+
+                    <button class="product" data-product="Business Laptop">
+                        Business Laptop
+                        <small>৳85,000</small>
+                    </button>
+
+                    <button class="product" data-product="Office Monitor">
+                        Office Monitor
+                        <small>৳22,000</small>
+                    </button>
+
+                    <button class="product" data-product="Wireless Keyboard">
+                        Wireless Keyboard
+                        <small>৳3,500</small>
+                    </button>
+
+                </article>
+
+                <aside class="panel">
+
+                    <h2>Shopping cart</h2>
+
+                    <div id="cart">
+                        Choose a product to add it here.
+                    </div>
+
+                    <hr>
+
+                    <p class="total">
+                        Total
+                        <strong id="saleTotal">৳0</strong>
+                    </p>
+
+                    <button class="primary" id="createSale">
+                        Create sale
+                    </button>
+
+                </aside>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <div id="toast"></div>
+
+    <script src="../js/roles.js"></script>
+    <script src="../js/sales.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Invoices | NEXORA ERP</title>
+    <link rel="stylesheet" href="../css/invoices.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <aside class="sidebar" id="sidebar">
+
+            <div class="brand">
+                <b>N</b> NEXORA ERP
+            </div>
+
+            <nav>
+                <a class="" href="dashboard.html">Dashboard</a>
+                <a class="" href="employees.html">Employees</a>
+                <a class="" href="customers.html">Customers</a>
+                <a class="" href="products.html">Products</a>
+                <a class="" href="inventory.html">Inventory</a>
+                <a class="" href="sales.html">Sales</a>
+                <a class="active" href="invoices.html">Invoices</a>
+                <a class="" href="finance.html">Finance</a>
+                <a class="" href="reports.html">Reports</a>
+                <a class="" href="notifications.html">Notifications</a>
+                <a class="" href="profile.html">Profile</a>
+                <a class="" href="settings.html">Settings</a>
+            </nav>
+
+            <a class="logout" href="login.html">Log out</a>
+
+        </aside>
+
+        <main class="content">
+
+            <header class="page-head">
+
+                <div>
+                    <h1>Invoices</h1>
+                    <p>Review invoices created from your sales.</p>
+                </div>
+
+                <button class="menu" id="menuButton">Menu</button>
+
+            </header>
+
+            <section class="panel">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Invoice</th>
+                            <th>Customer</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>INV-1042</td>
+                            <td>Rahim Trading</td>
+                            <td>2026-09-08</td>
+                            <td>৳120,000</td>
+                            <td>
+                                <b class="badge">Paid</b>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>INV-1043</td>
+                            <td>Nova Stores</td>
+                            <td>2026-09-07</td>
+                            <td>৳75,000</td>
+                            <td>
+                                <b class="badge pending">Pending</b>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <button class="primary" data-message="The latest invoice is ready to print">
+                    Print latest invoice
+                </button>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <div id="toast"></div>
+
+    <script src="../js/roles.js"></script>
+    <script src="../js/invoices.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dashboard | NEXORA ERP</title>
+
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <aside class="sidebar" id="sidebar">
+
+            <div class="brand">
+                <b>N</b> NEXORA ERP
+            </div>
+
+            <nav>
+                <a class="active" href="dashboard.html">Dashboard</a>
+                <a class="" href="employees.html">Employees</a>
+                <a class="" href="customers.html">Customers</a>
+                <a class="" href="products.html">Products</a>
+                <a class="" href="inventory.html">Inventory</a>
+                <a class="" href="sales.html">Sales</a>
+                <a class="" href="invoices.html">Invoices</a>
+                <a class="" href="finance.html">Finance</a>
+                <a class="" href="reports.html">Reports</a>
+                <a class="" href="notifications.html">Notifications</a>
+                <a class="" href="profile.html">Profile</a>
+                <a class="" href="settings.html">Settings</a>
+            </nav>
+
+            <a class="logout" href="login.html">Log out</a>
+
+        </aside>
+
+        <main class="content">
+
+            <header class="page-head">
+
+                <div>
+                    <h1>Dashboard</h1>
+                    <p>A quick view of today's business activity.</p>
+                </div>
+
+                <button class="menu" id="menuButton">Menu</button>
+
+            </header>
+
+            <section class="stats">
+
+                <article>
+                    <span>Revenue</span>
+                    <strong>৳195,000</strong>
+                    <small>+12% this month</small>
+                </article>
+
+                <article>
+                    <span>Sales</span>
+                    <strong>24</strong>
+                    <small>6 awaiting payment</small>
+                </article>
+
+                <article>
+                    <span>Customers</span>
+                    <strong>186</strong>
+                    <small>8 new this month</small>
+                </article>
+
+                <article>
+                    <span>Products</span>
+                    <strong>48</strong>
+                    <small>3 low-stock items</small>
+                </article>
+
+            </section>
+
+            <section class="two-column">
+
+                <article class="panel">
+
+                    <h2>Sales overview</h2>
+
+                    <div class="bars">
+                        <i style="height:42%"></i>
+                        <i style="height:68%"></i>
+                        <i style="height:55%"></i>
+                        <i style="height:85%"></i>
+                        <i style="height:72%"></i>
+                        <i style="height:96%"></i>
+                    </div>
+
+                </article>
+
+                <article class="panel">
+
+                    <h2>Recent activity</h2>
+
+                    <ul class="activity">
+                        <li>Invoice INV-1042 was paid</li>
+                        <li>Low stock: Wireless Keyboard</li>
+                        <li>New customer: Nova Stores</li>
+                    </ul>
+
+                </article>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <div id="toast"></div>
+
+    <script src="../js/roles.js"></script>
+    <script src="../js/dashboard.js"></script>
+
+</body>
+
+</html>

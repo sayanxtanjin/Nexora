@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reports | NEXORA ERP</title>
+
+    <link rel="stylesheet" href="../css/reports.css">
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <aside class="sidebar" id="sidebar">
+
+            <div class="brand">
+                <b>N</b> NEXORA ERP
+            </div>
+
+            <nav>
+                <a class="" href="dashboard.html">Dashboard</a>
+                <a class="" href="employees.html">Employees</a>
+                <a class="" href="customers.html">Customers</a>
+                <a class="" href="products.html">Products</a>
+                <a class="" href="inventory.html">Inventory</a>
+                <a class="" href="sales.html">Sales</a>
+                <a class="" href="invoices.html">Invoices</a>
+                <a class="" href="finance.html">Finance</a>
+                <a class="active" href="reports.html">Reports</a>
+                <a class="" href="notifications.html">Notifications</a>
+                <a class="" href="profile.html">Profile</a>
+                <a class="" href="settings.html">Settings</a>
+            </nav>
+
+            <a class="logout" href="login.html">Log out</a>
+
+        </aside>
+
+        <main class="content">
+
+            <header class="page-head">
+                <div>
+                    <h1>Reports</h1>
+                    <p>View short summaries of your business performance.</p>
+                </div>
+
+                <button class="menu" id="menuButton">Menu</button>
+            </header>
+
+            <section class="report-grid">
+
+                <article class="panel">
+                    <h2>Sales report</h2>
+                    <p>24 orders have generated ৳195,000 in sales.</p>
+                    <button class="download" data-message="Sales report downloaded">
+                        Download sales report
+                    </button>
+                </article>
+
+                <article class="panel">
+                    <h2>Stock report</h2>
+                    <p>Three products are below their preferred stock level.</p>
+                    <button class="download" data-message="Stock report downloaded">
+                        Download stock report
+                    </button>
+                </article>
+
+                <article class="panel">
+                    <h2>Customer report</h2>
+                    <p>186 customers are currently listed in the system.</p>
+                    <button class="download" data-message="Customer report downloaded">
+                        Download customer report
+                    </button>
+                </article>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <div id="toast"></div>
+
+    <script src="../js/roles.js"></script>
+    <script src="../js/reports.js"></script>
+
+</body>
+
+</html>
