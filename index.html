@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexora ERP — Sign In</title>
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="page">
+    <div class="left-panel"><div class="left-content">
+      <h1 class="brand-title">NEXORA</h1>
+      <p class="brand-subtitle">ERP Platform</p>
+      <div class="tagline"><p class="tagline-line1">Run Your Business</p><p class="tagline-line2">Smarter And Faster</p></div>
+    </div></div>
+    <div class="right-panel"><div class="form-wrap">
+      <div class="logo-row"><div class="logo-badge">N</div><span class="logo-text">NEXORA ERP</span></div>
+      <h2 class="welcome">Welcome back</h2>
+      <p class="subtext">Sign in to continue to your workspace.</p>
+      <form class="login-form" id="loginForm">
+        <label class="field-label" for="email">Email address</label>
+        <input class="field-input" type="email" id="email" name="email" placeholder="you@company.com" required>
+        <label class="field-label" for="password">Password</label>
+        <input class="field-input" type="password" id="password" name="password" placeholder="Enter your password" required>
+        <div class="row-between"><label class="remember"><input type="checkbox" checked><span>Remember me</span></label><a href="#" class="forgot">Forgot password?</a></div>
+        <button type="submit" class="signin-btn">Sign in</button>
+        <p class="signup-text">New to Nexora? <a href="#" class="signup-link">Create an account</a></p>
+        <hr class="divider">
+        <section><details><summary class="accounts">Use demo accounts</summary>
+          <div class="demo"><span>Admin</span><p>admin@nexora.com / admin@123</p></div>
+          <div class="demo"><span>Manager</span><p>manager@nexora.com / manager@123</p></div>
+          <div class="demo"><span>Employee</span><p>employee@nexora.com / employee@123</p></div>
+        </details></section>
+      </form>
+    </div></div>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>
